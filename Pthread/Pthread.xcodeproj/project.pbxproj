@@ -17,6 +17,12 @@
 		8158DA4524CC3B0700F0CC49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158DA4424CC3B0700F0CC49 /* main.m */; };
 		8158DA4D24CC5D3000F0CC49 /* YYThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158DA4C24CC5D3000F0CC49 /* YYThread.m */; };
 		8158DA5024CEEFFF00F0CC49 /* GCDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158DA4F24CEEFFF00F0CC49 /* GCDObject.m */; };
+		81AD78A9255A7A0A000C0D19 /* YYFirstC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AD78A5255A7A0A000C0D19 /* YYFirstC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		81AD78AA255A7A0A000C0D19 /* YYSecondC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AD78A8255A7A0A000C0D19 /* YYSecondC.m */; };
+		81AD78AE255A7A21000C0D19 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AD78AD255A7A21000C0D19 /* Student.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		81AD78BB255A7A69000C0D19 /* VCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AD78B6255A7A69000C0D19 /* VCView.m */; };
+		81AD78BC255A7A69000C0D19 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AD78B8255A7A69000C0D19 /* Person.m */; };
+		81AD78BD255A7A69000C0D19 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AD78BA255A7A69000C0D19 /* Dog.m */; };
 		81C28A1D24D6B84100806CB7 /* YanYanOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C28A1C24D6B84100806CB7 /* YanYanOperation.m */; };
 		81C28A1F24D7F8A900806CB7 /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81C28A1E24D7F8A900806CB7 /* apps.plist */; };
 		81C28A2224D7F8FE00806CB7 /* ImageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C28A2124D7F8FE00806CB7 /* ImageTableViewController.m */; };
@@ -45,6 +51,18 @@
 		8158DA4C24CC5D3000F0CC49 /* YYThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYThread.m; sourceTree = "<group>"; };
 		8158DA4E24CEEFFF00F0CC49 /* GCDObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDObject.h; sourceTree = "<group>"; };
 		8158DA4F24CEEFFF00F0CC49 /* GCDObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDObject.m; sourceTree = "<group>"; };
+		81AD78A5255A7A0A000C0D19 /* YYFirstC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFirstC.m; sourceTree = "<group>"; };
+		81AD78A6255A7A0A000C0D19 /* YYSecondC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSecondC.h; sourceTree = "<group>"; };
+		81AD78A7255A7A0A000C0D19 /* YYFirstC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFirstC.h; sourceTree = "<group>"; };
+		81AD78A8255A7A0A000C0D19 /* YYSecondC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSecondC.m; sourceTree = "<group>"; };
+		81AD78AC255A7A21000C0D19 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		81AD78AD255A7A21000C0D19 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		81AD78B5255A7A69000C0D19 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		81AD78B6255A7A69000C0D19 /* VCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCView.m; sourceTree = "<group>"; };
+		81AD78B7255A7A69000C0D19 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		81AD78B8255A7A69000C0D19 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		81AD78B9255A7A69000C0D19 /* VCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCView.h; sourceTree = "<group>"; };
+		81AD78BA255A7A69000C0D19 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		81C28A1B24D6B84100806CB7 /* YanYanOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YanYanOperation.h; sourceTree = "<group>"; };
 		81C28A1C24D6B84100806CB7 /* YanYanOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YanYanOperation.m; sourceTree = "<group>"; };
 		81C28A1E24D7F8A900806CB7 /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
@@ -97,8 +115,15 @@
 		8158DA3124CC3B0200F0CC49 /* Pthread */ = {
 			isa = PBXGroup;
 			children = (
+				81AD78B4255A7A69000C0D19 /* Models */,
 				813B731125175C1C002EDB71 /* NSUrlSessrion */,
 				81C28A1E24D7F8A900806CB7 /* apps.plist */,
+				81AD78A7255A7A0A000C0D19 /* YYFirstC.h */,
+				81AD78A5255A7A0A000C0D19 /* YYFirstC.m */,
+				81AD78A6255A7A0A000C0D19 /* YYSecondC.h */,
+				81AD78A8255A7A0A000C0D19 /* YYSecondC.m */,
+				81AD78AC255A7A21000C0D19 /* Student.h */,
+				81AD78AD255A7A21000C0D19 /* Student.m */,
 				8158DA3224CC3B0200F0CC49 /* AppDelegate.h */,
 				8158DA3324CC3B0200F0CC49 /* AppDelegate.m */,
 				8158DA3524CC3B0200F0CC49 /* SceneDelegate.h */,
@@ -130,6 +155,19 @@
 				81C28A2424D7F9C300806CB7 /* ImageModel.m */,
 			);
 			path = Pthread;
+			sourceTree = "<group>";
+		};
+		81AD78B4255A7A69000C0D19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81AD78B5255A7A69000C0D19 /* Person.h */,
+				81AD78B6255A7A69000C0D19 /* VCView.m */,
+				81AD78B7255A7A69000C0D19 /* Dog.h */,
+				81AD78B8255A7A69000C0D19 /* Person.m */,
+				81AD78B9255A7A69000C0D19 /* VCView.h */,
+				81AD78BA255A7A69000C0D19 /* Dog.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,15 +243,21 @@
 			files = (
 				8107B1F024D30CD90082BEC1 /* YYTool.m in Sources */,
 				81C4BE7A24E63D4A001115AE /* UrlConnectionVController.m in Sources */,
+				81AD78AA255A7A0A000C0D19 /* YYSecondC.m in Sources */,
+				81AD78A9255A7A0A000C0D19 /* YYFirstC.m in Sources */,
 				8158DA3A24CC3B0200F0CC49 /* ViewController.m in Sources */,
+				81AD78BB255A7A69000C0D19 /* VCView.m in Sources */,
+				81AD78BC255A7A69000C0D19 /* Person.m in Sources */,
 				8158DA5024CEEFFF00F0CC49 /* GCDObject.m in Sources */,
 				81C28A2224D7F8FE00806CB7 /* ImageTableViewController.m in Sources */,
 				8158DA3424CC3B0200F0CC49 /* AppDelegate.m in Sources */,
 				81C28A2524D7F9C300806CB7 /* ImageModel.m in Sources */,
 				8158DA4524CC3B0700F0CC49 /* main.m in Sources */,
 				81C28A1D24D6B84100806CB7 /* YanYanOperation.m in Sources */,
+				81AD78AE255A7A21000C0D19 /* Student.m in Sources */,
 				81C28A8524DAC71000806CB7 /* CacheViewController.m in Sources */,
 				81C4BE7424E392C9001115AE /* VideoPlayerViewController.m in Sources */,
+				81AD78BD255A7A69000C0D19 /* Dog.m in Sources */,
 				8158DA3724CC3B0200F0CC49 /* SceneDelegate.m in Sources */,
 				8158DA4D24CC5D3000F0CC49 /* YYThread.m in Sources */,
 			);
