@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8107B1F024D30CD90082BEC1 /* YYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8107B1EF24D30CD90082BEC1 /* YYTool.m */; };
+		8155847D25722DDD0063E16A /* YYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8155847C25722DDD0063E16A /* YYPerson.m */; };
 		8158DA3424CC3B0200F0CC49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158DA3324CC3B0200F0CC49 /* AppDelegate.m */; };
 		8158DA3724CC3B0200F0CC49 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158DA3624CC3B0200F0CC49 /* SceneDelegate.m */; };
 		8158DA3A24CC3B0200F0CC49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158DA3924CC3B0200F0CC49 /* ViewController.m */; };
@@ -33,8 +34,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		810758AD25723FC9009FB823 /* NSKVONotifying_YYPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSKVONotifying_YYPerson.h; sourceTree = "<group>"; };
+		810758AE25723FC9009FB823 /* NSKVONotifying_YYPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSKVONotifying_YYPerson.m; sourceTree = "<group>"; };
 		8107B1EE24D30CD90082BEC1 /* YYTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYTool.h; sourceTree = "<group>"; };
 		8107B1EF24D30CD90082BEC1 /* YYTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTool.m; sourceTree = "<group>"; };
+		8155847B25722DDD0063E16A /* YYPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYPerson.h; sourceTree = "<group>"; };
+		8155847C25722DDD0063E16A /* YYPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYPerson.m; sourceTree = "<group>"; };
 		8158DA2F24CC3B0200F0CC49 /* Pthread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pthread.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8158DA3224CC3B0200F0CC49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8158DA3324CC3B0200F0CC49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,15 +120,10 @@
 		8158DA3124CC3B0200F0CC49 /* Pthread */ = {
 			isa = PBXGroup;
 			children = (
-				81AD78B4255A7A69000C0D19 /* Models */,
+				81AD78C7255A86DF000C0D19 /* Bottom */,
+				81AD78C2255A860C000C0D19 /* YYLearnIOS */,
 				813B731125175C1C002EDB71 /* NSUrlSessrion */,
 				81C28A1E24D7F8A900806CB7 /* apps.plist */,
-				81AD78A7255A7A0A000C0D19 /* YYFirstC.h */,
-				81AD78A5255A7A0A000C0D19 /* YYFirstC.m */,
-				81AD78A6255A7A0A000C0D19 /* YYSecondC.h */,
-				81AD78A8255A7A0A000C0D19 /* YYSecondC.m */,
-				81AD78AC255A7A21000C0D19 /* Student.h */,
-				81AD78AD255A7A21000C0D19 /* Student.m */,
 				8158DA3224CC3B0200F0CC49 /* AppDelegate.h */,
 				8158DA3324CC3B0200F0CC49 /* AppDelegate.m */,
 				8158DA3524CC3B0200F0CC49 /* SceneDelegate.h */,
@@ -160,12 +160,69 @@
 		81AD78B4255A7A69000C0D19 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				81AD78AC255A7A21000C0D19 /* Student.h */,
+				81AD78AD255A7A21000C0D19 /* Student.m */,
 				81AD78B5255A7A69000C0D19 /* Person.h */,
-				81AD78B6255A7A69000C0D19 /* VCView.m */,
-				81AD78B7255A7A69000C0D19 /* Dog.h */,
 				81AD78B8255A7A69000C0D19 /* Person.m */,
-				81AD78B9255A7A69000C0D19 /* VCView.h */,
+				81AD78B7255A7A69000C0D19 /* Dog.h */,
 				81AD78BA255A7A69000C0D19 /* Dog.m */,
+				81AD78B9255A7A69000C0D19 /* VCView.h */,
+				81AD78B6255A7A69000C0D19 /* VCView.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		81AD78C2255A860C000C0D19 /* YYLearnIOS */ = {
+			isa = PBXGroup;
+			children = (
+				81AD78C5255A8648000C0D19 /* Controllers */,
+				81AD78B4255A7A69000C0D19 /* Models */,
+			);
+			path = YYLearnIOS;
+			sourceTree = "<group>";
+		};
+		81AD78C5255A8648000C0D19 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				81AD78A7255A7A0A000C0D19 /* YYFirstC.h */,
+				81AD78A5255A7A0A000C0D19 /* YYFirstC.m */,
+				81AD78A6255A7A0A000C0D19 /* YYSecondC.h */,
+				81AD78A8255A7A0A000C0D19 /* YYSecondC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		81AD78C7255A86DF000C0D19 /* Bottom */ = {
+			isa = PBXGroup;
+			children = (
+				81AD78CA255A871E000C0D19 /* Models */,
+				81AD78C9255A8717000C0D19 /* Views */,
+				81AD78C8255A870A000C0D19 /* Controllers */,
+			);
+			path = Bottom;
+			sourceTree = "<group>";
+		};
+		81AD78C8255A870A000C0D19 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		81AD78C9255A8717000C0D19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81AD78CA255A871E000C0D19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8155847B25722DDD0063E16A /* YYPerson.h */,
+				8155847C25722DDD0063E16A /* YYPerson.m */,
+				810758AD25723FC9009FB823 /* NSKVONotifying_YYPerson.h */,
+				810758AE25723FC9009FB823 /* NSKVONotifying_YYPerson.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -255,6 +312,7 @@
 				8158DA4524CC3B0700F0CC49 /* main.m in Sources */,
 				81C28A1D24D6B84100806CB7 /* YanYanOperation.m in Sources */,
 				81AD78AE255A7A21000C0D19 /* Student.m in Sources */,
+				8155847D25722DDD0063E16A /* YYPerson.m in Sources */,
 				81C28A8524DAC71000806CB7 /* CacheViewController.m in Sources */,
 				81C4BE7424E392C9001115AE /* VideoPlayerViewController.m in Sources */,
 				81AD78BD255A7A69000C0D19 /* Dog.m in Sources */,
