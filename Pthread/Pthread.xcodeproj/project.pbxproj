@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8107B1F024D30CD90082BEC1 /* YYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8107B1EF24D30CD90082BEC1 /* YYTool.m */; };
+		812C340C25752AA40057C0C2 /* YYCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C340B25752AA40057C0C2 /* YYCat.m */; };
 		8155847D25722DDD0063E16A /* YYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8155847C25722DDD0063E16A /* YYPerson.m */; };
 		8158DA3424CC3B0200F0CC49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158DA3324CC3B0200F0CC49 /* AppDelegate.m */; };
 		8158DA3724CC3B0200F0CC49 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158DA3624CC3B0200F0CC49 /* SceneDelegate.m */; };
@@ -38,6 +39,8 @@
 		810758AE25723FC9009FB823 /* NSKVONotifying_YYPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSKVONotifying_YYPerson.m; sourceTree = "<group>"; };
 		8107B1EE24D30CD90082BEC1 /* YYTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYTool.h; sourceTree = "<group>"; };
 		8107B1EF24D30CD90082BEC1 /* YYTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTool.m; sourceTree = "<group>"; };
+		812C340A25752AA40057C0C2 /* YYCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCat.h; sourceTree = "<group>"; };
+		812C340B25752AA40057C0C2 /* YYCat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCat.m; sourceTree = "<group>"; };
 		8155847B25722DDD0063E16A /* YYPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYPerson.h; sourceTree = "<group>"; };
 		8155847C25722DDD0063E16A /* YYPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYPerson.m; sourceTree = "<group>"; };
 		8158DA2F24CC3B0200F0CC49 /* Pthread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pthread.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -221,6 +224,8 @@
 			children = (
 				8155847B25722DDD0063E16A /* YYPerson.h */,
 				8155847C25722DDD0063E16A /* YYPerson.m */,
+				812C340A25752AA40057C0C2 /* YYCat.h */,
+				812C340B25752AA40057C0C2 /* YYCat.m */,
 				810758AD25723FC9009FB823 /* NSKVONotifying_YYPerson.h */,
 				810758AE25723FC9009FB823 /* NSKVONotifying_YYPerson.m */,
 			);
@@ -316,6 +321,7 @@
 				81C28A8524DAC71000806CB7 /* CacheViewController.m in Sources */,
 				81C4BE7424E392C9001115AE /* VideoPlayerViewController.m in Sources */,
 				81AD78BD255A7A69000C0D19 /* Dog.m in Sources */,
+				812C340C25752AA40057C0C2 /* YYCat.m in Sources */,
 				8158DA3724CC3B0200F0CC49 /* SceneDelegate.m in Sources */,
 				8158DA4D24CC5D3000F0CC49 /* YYThread.m in Sources */,
 			);

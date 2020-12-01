@@ -10,9 +10,30 @@
 
 @implementation YYPerson
 
-- (void)setAge:(int)age{
-    _age = age;
-}
+//- (int )getAge{
+//    return 11;
+//}
+
+//- (int )age{
+//    return 12;
+//}
+
+//- (int)isAge{
+//    return 13;
+//}
+
+//- (int )_age{
+//    return 14;
+//}
+
+
+//- (void)setAge:(int)age{
+//    NSLog(@"setAge: %d",age);
+//}
+
+//- (void)_setAge:(int)age{
+//    NSLog(@"_setAge: %d",age);
+//}
 
 
 //- (void)willChangeValueForKey:(NSString *)key{
@@ -26,5 +47,9 @@
 //    NSLog(@"didChangeValueForKey -end");
 //
 //}
+
++ (BOOL)accessInstanceVariablesDirectly{
+    return YES;
+}
 
 @end 
