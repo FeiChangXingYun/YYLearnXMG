@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		8107B1F024D30CD90082BEC1 /* YYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8107B1EF24D30CD90082BEC1 /* YYTool.m */; };
 		812C340C25752AA40057C0C2 /* YYCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C340B25752AA40057C0C2 /* YYCat.m */; };
+		812C34112575F3E40057C0C2 /* KVOKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C34102575F3E40057C0C2 /* KVOKVCViewController.m */; };
+		812C3418257611C30057C0C2 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C3417257611C30057C0C2 /* CategoryViewController.m */; };
+		812C34202576120D0057C0C2 /* CategoryPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C341F2576120D0057C0C2 /* CategoryPerson.m */; };
+		812C3425257612250057C0C2 /* CategoryPerson+Eat.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C3424257612250057C0C2 /* CategoryPerson+Eat.m */; };
+		812C3429257612330057C0C2 /* CategoryPerson+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C3428257612330057C0C2 /* CategoryPerson+Test.m */; };
+		812C34572578E0A70057C0C2 /* YYStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C34562578E0A70057C0C2 /* YYStudent.m */; };
+		812C345B2578E0CB0057C0C2 /* YYStudent+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C345A2578E0CB0057C0C2 /* YYStudent+Test1.m */; };
+		812C345F2578E0E90057C0C2 /* YYStudent+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C345E2578E0E90057C0C2 /* YYStudent+Test2.m */; };
 		8155847D25722DDD0063E16A /* YYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8155847C25722DDD0063E16A /* YYPerson.m */; };
 		8158DA3424CC3B0200F0CC49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158DA3324CC3B0200F0CC49 /* AppDelegate.m */; };
 		8158DA3724CC3B0200F0CC49 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158DA3624CC3B0200F0CC49 /* SceneDelegate.m */; };
@@ -19,6 +27,9 @@
 		8158DA4524CC3B0700F0CC49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158DA4424CC3B0700F0CC49 /* main.m */; };
 		8158DA4D24CC5D3000F0CC49 /* YYThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158DA4C24CC5D3000F0CC49 /* YYThread.m */; };
 		8158DA5024CEEFFF00F0CC49 /* GCDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158DA4F24CEEFFF00F0CC49 /* GCDObject.m */; };
+		8188E9EB2579CABE005A6195 /* YYDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8188E9EA2579CABE005A6195 /* YYDog.m */; };
+		8188E9F42579CB29005A6195 /* YYCatInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 8188E9F32579CB29005A6195 /* YYCatInitialize.m */; };
+		8188E9F82579E260005A6195 /* YYTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8188E9F72579E260005A6195 /* YYTeacher.m */; };
 		81AD78A9255A7A0A000C0D19 /* YYFirstC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AD78A5255A7A0A000C0D19 /* YYFirstC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		81AD78AA255A7A0A000C0D19 /* YYSecondC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AD78A8255A7A0A000C0D19 /* YYSecondC.m */; };
 		81AD78AE255A7A21000C0D19 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AD78AD255A7A21000C0D19 /* Student.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -41,6 +52,23 @@
 		8107B1EF24D30CD90082BEC1 /* YYTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTool.m; sourceTree = "<group>"; };
 		812C340A25752AA40057C0C2 /* YYCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCat.h; sourceTree = "<group>"; };
 		812C340B25752AA40057C0C2 /* YYCat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCat.m; sourceTree = "<group>"; };
+		812C340F2575F3E40057C0C2 /* KVOKVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOKVCViewController.h; sourceTree = "<group>"; };
+		812C34102575F3E40057C0C2 /* KVOKVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOKVCViewController.m; sourceTree = "<group>"; };
+		812C3416257611C30057C0C2 /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		812C3417257611C30057C0C2 /* CategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		812C341E2576120D0057C0C2 /* CategoryPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryPerson.h; sourceTree = "<group>"; };
+		812C341F2576120D0057C0C2 /* CategoryPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryPerson.m; sourceTree = "<group>"; };
+		812C3423257612250057C0C2 /* CategoryPerson+Eat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CategoryPerson+Eat.h"; sourceTree = "<group>"; };
+		812C3424257612250057C0C2 /* CategoryPerson+Eat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CategoryPerson+Eat.m"; sourceTree = "<group>"; };
+		812C3427257612330057C0C2 /* CategoryPerson+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CategoryPerson+Test.h"; sourceTree = "<group>"; };
+		812C3428257612330057C0C2 /* CategoryPerson+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CategoryPerson+Test.m"; sourceTree = "<group>"; };
+		812C342B25761BD80057C0C2 /* CategoryPerson+Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "CategoryPerson+Test.cpp"; sourceTree = "<group>"; };
+		812C34552578E0A70057C0C2 /* YYStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYStudent.h; sourceTree = "<group>"; };
+		812C34562578E0A70057C0C2 /* YYStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYStudent.m; sourceTree = "<group>"; };
+		812C34592578E0CB0057C0C2 /* YYStudent+Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYStudent+Test1.h"; sourceTree = "<group>"; };
+		812C345A2578E0CB0057C0C2 /* YYStudent+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YYStudent+Test1.m"; sourceTree = "<group>"; };
+		812C345D2578E0E90057C0C2 /* YYStudent+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYStudent+Test2.h"; sourceTree = "<group>"; };
+		812C345E2578E0E90057C0C2 /* YYStudent+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YYStudent+Test2.m"; sourceTree = "<group>"; };
 		8155847B25722DDD0063E16A /* YYPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYPerson.h; sourceTree = "<group>"; };
 		8155847C25722DDD0063E16A /* YYPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYPerson.m; sourceTree = "<group>"; };
 		8158DA2F24CC3B0200F0CC49 /* Pthread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pthread.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +87,12 @@
 		8158DA4C24CC5D3000F0CC49 /* YYThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYThread.m; sourceTree = "<group>"; };
 		8158DA4E24CEEFFF00F0CC49 /* GCDObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDObject.h; sourceTree = "<group>"; };
 		8158DA4F24CEEFFF00F0CC49 /* GCDObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDObject.m; sourceTree = "<group>"; };
+		8188E9E92579CABE005A6195 /* YYDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYDog.h; sourceTree = "<group>"; };
+		8188E9EA2579CABE005A6195 /* YYDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYDog.m; sourceTree = "<group>"; };
+		8188E9F22579CB29005A6195 /* YYCatInitialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCatInitialize.h; sourceTree = "<group>"; };
+		8188E9F32579CB29005A6195 /* YYCatInitialize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCatInitialize.m; sourceTree = "<group>"; };
+		8188E9F62579E260005A6195 /* YYTeacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYTeacher.h; sourceTree = "<group>"; };
+		8188E9F72579E260005A6195 /* YYTeacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTeacher.m; sourceTree = "<group>"; };
 		81AD78A5255A7A0A000C0D19 /* YYFirstC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFirstC.m; sourceTree = "<group>"; };
 		81AD78A6255A7A0A000C0D19 /* YYSecondC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSecondC.h; sourceTree = "<group>"; };
 		81AD78A7255A7A0A000C0D19 /* YYFirstC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFirstC.h; sourceTree = "<group>"; };
@@ -97,6 +131,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		812C341525760E440057C0C2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				812C341D257611EC0057C0C2 /* Models */,
+				812C341B257611C90057C0C2 /* Controllers */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		812C341B257611C90057C0C2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				812C3416257611C30057C0C2 /* CategoryViewController.h */,
+				812C3417257611C30057C0C2 /* CategoryViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		812C341D257611EC0057C0C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				812C341E2576120D0057C0C2 /* CategoryPerson.h */,
+				812C341F2576120D0057C0C2 /* CategoryPerson.m */,
+				812C3423257612250057C0C2 /* CategoryPerson+Eat.h */,
+				812C3424257612250057C0C2 /* CategoryPerson+Eat.m */,
+				812C3427257612330057C0C2 /* CategoryPerson+Test.h */,
+				812C3428257612330057C0C2 /* CategoryPerson+Test.m */,
+				812C342B25761BD80057C0C2 /* CategoryPerson+Test.cpp */,
+				812C34552578E0A70057C0C2 /* YYStudent.h */,
+				812C34562578E0A70057C0C2 /* YYStudent.m */,
+				812C34592578E0CB0057C0C2 /* YYStudent+Test1.h */,
+				812C345A2578E0CB0057C0C2 /* YYStudent+Test1.m */,
+				812C345D2578E0E90057C0C2 /* YYStudent+Test2.h */,
+				812C345E2578E0E90057C0C2 /* YYStudent+Test2.m */,
+				8188E9F62579E260005A6195 /* YYTeacher.h */,
+				8188E9F72579E260005A6195 /* YYTeacher.m */,
+				8188E9E92579CABE005A6195 /* YYDog.h */,
+				8188E9EA2579CABE005A6195 /* YYDog.m */,
+				8188E9F22579CB29005A6195 /* YYCatInitialize.h */,
+				8188E9F32579CB29005A6195 /* YYCatInitialize.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		813B731125175C1C002EDB71 /* NSUrlSessrion */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,7 +201,8 @@
 		8158DA3124CC3B0200F0CC49 /* Pthread */ = {
 			isa = PBXGroup;
 			children = (
-				81AD78C7255A86DF000C0D19 /* Bottom */,
+				812C341525760E440057C0C2 /* Category */,
+				81AD78C7255A86DF000C0D19 /* KVOKVC */,
 				81AD78C2255A860C000C0D19 /* YYLearnIOS */,
 				813B731125175C1C002EDB71 /* NSUrlSessrion */,
 				81C28A1E24D7F8A900806CB7 /* apps.plist */,
@@ -195,19 +274,21 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		81AD78C7255A86DF000C0D19 /* Bottom */ = {
+		81AD78C7255A86DF000C0D19 /* KVOKVC */ = {
 			isa = PBXGroup;
 			children = (
 				81AD78CA255A871E000C0D19 /* Models */,
 				81AD78C9255A8717000C0D19 /* Views */,
 				81AD78C8255A870A000C0D19 /* Controllers */,
 			);
-			path = Bottom;
+			path = KVOKVC;
 			sourceTree = "<group>";
 		};
 		81AD78C8255A870A000C0D19 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				812C340F2575F3E40057C0C2 /* KVOKVCViewController.h */,
+				812C34102575F3E40057C0C2 /* KVOKVCViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -315,8 +396,19 @@
 				8158DA3424CC3B0200F0CC49 /* AppDelegate.m in Sources */,
 				81C28A2524D7F9C300806CB7 /* ImageModel.m in Sources */,
 				8158DA4524CC3B0700F0CC49 /* main.m in Sources */,
+				8188E9EB2579CABE005A6195 /* YYDog.m in Sources */,
+				812C34112575F3E40057C0C2 /* KVOKVCViewController.m in Sources */,
 				81C28A1D24D6B84100806CB7 /* YanYanOperation.m in Sources */,
 				81AD78AE255A7A21000C0D19 /* Student.m in Sources */,
+				812C3418257611C30057C0C2 /* CategoryViewController.m in Sources */,
+				812C34572578E0A70057C0C2 /* YYStudent.m in Sources */,
+				812C34202576120D0057C0C2 /* CategoryPerson.m in Sources */,
+				8188E9F42579CB29005A6195 /* YYCatInitialize.m in Sources */,
+				8188E9F82579E260005A6195 /* YYTeacher.m in Sources */,
+				812C345B2578E0CB0057C0C2 /* YYStudent+Test1.m in Sources */,
+				812C345F2578E0E90057C0C2 /* YYStudent+Test2.m in Sources */,
+				812C3425257612250057C0C2 /* CategoryPerson+Eat.m in Sources */,
+				812C3429257612330057C0C2 /* CategoryPerson+Test.m in Sources */,
 				8155847D25722DDD0063E16A /* YYPerson.m in Sources */,
 				81C28A8524DAC71000806CB7 /* CacheViewController.m in Sources */,
 				81C4BE7424E392C9001115AE /* VideoPlayerViewController.m in Sources */,
