@@ -11,6 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CategoryPerson (Eat)
+
+@property(nonatomic, assign) int weight;
+@property(nonatomic, copy) NSString *name;
+@property(nonatomic, assign) int  height;
+
 - (void)eat;
 + (void)eat2;
 

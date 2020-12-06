@@ -44,13 +44,11 @@
      最后参与编译的分类放到方法列表前面，如果分类中的方法与父类重名先调用分类中的方法。
      类扩展在编译的时候就已经合并到到类里面去了，分类是利用运行时特性把分类里面的信息合并到类里面
      */
-    
     //获取类的方法
     //[self printMethodNameOfClass:object_getClass(object_getClass(person))];
     
     //load是在runtime加载这个类的时候分别调用对应类的load方法
     //子类调用父类的load方法，是调用父类分类的load方法，如果分类中的方法与类中的方法相同分类的方法会在类方法列表的前面
-    
     
     //initialize
     //只要有消息发送就会调用initialize方法并且只会调用其中的一个initialize方法，不会像load那样全部都调用因为load方法不是通过objc_sendMsg()方法调用的，是通过函数指针直接调用的，直接找到那个方法直接调用，load不是通过isa指针找到类对象元类对象调用的;如果没有消息发送就不会调用initialize
@@ -59,15 +57,37 @@
      initialize有且只会调用一次
      [YYStudent alloc]; 子类收到第一次收到消息时如果父类的initialize没有调用过会先调用父类的initialize,否则不会调用，再调用子类的initialize方法
      你在第一次使用这个类的时候想做什么事情就可以用initialize
-     
      */
-    [CategoryPerson alloc];
-    [YYStudent alloc];
-    [YYTeacher alloc];
-//    [CategoryPerson alloc];
-//    [CategoryPerson alloc];
-//    [YYStudent alloc];
-//    [YYStudent alloc];
+    
+    //[CategoryPerson alloc];
+    //[YYStudent alloc];
+    //[YYTeacher alloc];
+    //[CategoryPerson alloc];
+    //[CategoryPerson alloc];
+    //[YYStudent alloc];
+    //[YYStudent alloc];
+    
+    CategoryPerson *person = [[CategoryPerson alloc] init];
+    person.age = 10;
+    person.name = @"jack";
+    person.height = 11;
+    
+    //{
+    //CategoryPerson *temp = [[CategoryPerson alloc] init];
+    //objc_setAssociatedObject(person, @"temp", temp, OBJC_ASSOCIATION_ASSIGN);
+    //}
+    //temp是局部变量已经存到HashMap中了，这一行temp已经销毁但是HashMap中还是有这个内存，再次访问就会报坏的内存
+    //NSLog(@"%@",objc_getAssociatedObject(person, @"temp"));
+    
+    
+    CategoryPerson *person2 = [[CategoryPerson alloc] init];
+    person2.age = 15;
+    person2.name = @"rose";
+    person2.height = 12;
+
+    NSLog(@"age is %d, name is  %@ height is %d",person.age,person.name,person.height);
+    NSLog(@"age is %d, name is  %@ height is %d",person2.age,person2.name,person2.height);
+
 }
 
 

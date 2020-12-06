@@ -11,11 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CategoryPerson : NSObject
+
+@property(nonatomic, assign) int age;
 - (void)run;
 + (void)run2;
-
 + (void)load;
-
 + (void)initialize;
 
 @end
